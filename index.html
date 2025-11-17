@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMBG Validator</title>
+    <script>
+        async function validateEmbg() {
+            const embgInput = document.querySelector('.embg').value.trim();
+
+            if(!embgInput){
+                alert('Please enter an EMBG');
+                return;
+            }
+
+            try{
+                const response = await fetch('http://localhost:5001/api/embg/validate', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(embgInput)
+                });
+
+                const result = await response.json();
+
+                const resultText = result.IsValid ? 'Valid EMBG' : 'Invalid EMBG';
+                const resultColor = result.IsValid ? 'green' : 'red';
+                document.getElementById('result').textContent = resultText;
+                document.getElementById('result').style.color = resultColor;
+            } catch(error){
+                console.error('Error validating EMBG:', error);
+                alert('An error occurred while validating the EMBG.');
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>EMBG Validator</h1>
+    <label for="embg">Enter EMBG: </label>
+    <input type="text" class="embg" id="embg"/>
+    <br/>
+
+
+    <button onclick="validateEmbg()">Submit</button>
+
+    <p id="result"></p>
+</body>
+
+</html>
