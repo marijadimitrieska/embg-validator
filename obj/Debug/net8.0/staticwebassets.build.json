@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "ZySlvH1beFmkGSTACIfgVR2nRqFaLWGvYFmLZ8/U/xQ=",
+  "Source": "EmbgValidatorApi",
+  "BasePath": "_content/EmbgValidatorApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "EmbgValidatorApi\\wwwroot",
+      "Source": "EmbgValidatorApi",
+      "ContentRoot": "C:\\Users\\User5452\\Desktop\\embg-validator\\wwwroot\\",
+      "BasePath": "_content/EmbgValidatorApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\User5452\\Desktop\\embg-validator\\wwwroot\\index.html",
+      "SourceId": "EmbgValidatorApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User5452\\Desktop\\embg-validator\\wwwroot\\",
+      "BasePath": "_content/EmbgValidatorApi",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}

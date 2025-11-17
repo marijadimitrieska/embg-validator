@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\User5452\\Desktop\\embg-validator\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.EmbgValidatorApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.EmbgValidatorApi.props",
+      "PackagePath": "build\\EmbgValidatorApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.EmbgValidatorApi.props",
+      "PackagePath": "buildMultiTargeting\\EmbgValidatorApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.EmbgValidatorApi.props",
+      "PackagePath": "buildTransitive\\EmbgValidatorApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

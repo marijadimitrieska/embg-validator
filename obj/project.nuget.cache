@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "cKubS1TCZWA=",
+  "dgSpecHash": "a1S4ByccyHZ/aMV5oPxQIiTOjQ4P0jSoFZ5URj3tr49G8HOTBD7HJYei5ZEA9z1BB2qASEFYwZA2agUULG7k2A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\marijad\\Desktop\\EmbgValidatorApi\\EmbgValidatorApi.csproj",
+  "projectFilePath": "C:\\Users\\User5452\\Desktop\\embg-validator\\EmbgValidatorApi.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\marijad\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.0\\microsoft.aspnetcore.openapi.10.0.0.nupkg.sha512",
-    "C:\\Users\\marijad\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+    "C:\\Users\\User5452\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.0\\microsoft.aspnetcore.openapi.10.0.0.nupkg.sha512"
   ],
   "logs": []
 }

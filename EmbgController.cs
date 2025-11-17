@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace EmbgValidatorApi.Controllers
 {
-    [Route("api/controller")]
+    [Route("api/[controller]")]
     [ApiController]
     public class EmbgController : ControllerBase
     {
@@ -14,10 +14,15 @@ namespace EmbgValidatorApi.Controllers
         }
 
         [HttpPost("validate")]
-        public IActionResult ValidateEmbg([FromBody] string embg)
+        public IActionResult ValidateEmbg([FromBody] EmbgRequest request)
         {
-            bool isValid = _validatorService.ValidateEmbg(embg);
+            bool isValid = _validatorService.ValidateEmbg(request.Embg);
             return Ok(new { isValid = isValid });
         }
+    }
+
+    public class EmbgRequest
+    {
+        public string? Embg { get; set; }
     }
 }
